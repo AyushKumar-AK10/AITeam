@@ -17,7 +17,7 @@ dependencies = [
 ai-team = "ai_team.main:main"
 
 [tool.vercel]
-entrypoint = "ai_team:api"
+entrypoint = "src.ai_team:api"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
