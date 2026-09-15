@@ -7,4 +7,5 @@ class State(MessagesState):
     architectResponse : HumanMessage
     developerResponse : HumanMessage
     testerResponse : HumanMessage
+    toolAttempts: int
 
